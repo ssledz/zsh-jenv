@@ -7,13 +7,14 @@ Plugin assumes that [jenv](https://www.jenv.be/) is installed either in `~/.jenv
 1. Clone this repository into `$ZSH_CUSTOM/plugins` (by default `~/.oh-my-zsh/custom/plugins`)
 
     ```sh
-    git clone https://github.com/ssledz/zsh-jenv ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-jenv
+    git clone https://github.com/ssledz/zsh-jenv ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/jenv
+    chmod g-w,o-w ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/jenv
     ```
 
 2. Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
 
     ```sh
-    plugins=(zsh-jenv)
+    plugins=(jenv)
     ```
 
 3. Start a new terminal session.
