@@ -84,7 +84,7 @@ $ jenv shell-options
  -XXaltjvm=dcevm -javaagent:/home/ssledz/bin/hotswap/hotswap-agent.jar=autoHotswap=true
 ```
 
-There is also counter options for unseting shell options like
+There are also counter options for unseting shell options like
 
 ```
 jdebug_unset
